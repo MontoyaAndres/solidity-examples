@@ -1,13 +1,7 @@
-# Sample Hardhat Project
+https://coinsbench.com/verify-smart-contract-on-polygonscan-using-hardhat-9b8331dbd888
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+npx hardhat compile
+npm run deploy
+npx hardhat verify CONTRACT_ADDRESS --network mumbai
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+Contract: 0xc7D259Bb8Ee9281857897164AD7D444b007b7E5F
